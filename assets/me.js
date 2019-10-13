@@ -16,7 +16,7 @@ function loaded(){
 
 var x = 0;
 
-var titleText = [ "ur", "edgy", "moving","title","here"];
+var titleText = [ "lock", "pick", ".ga"];
 
 function loop(){
 
