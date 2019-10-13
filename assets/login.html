@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
 
+<?php
+$user=" ";
+$password=" ";
+if(isset($_POST['submit'])){
+
 if(($_POST['admin'] == $user) and ($_POST['admin'] == $password)){
-  echo 'success';
-  }
-else{
-  echo 'Bad login';
-  }
+    echo "successful login!";
+    }
+    else
+    {
+    echo "Bad Login.";
+    }
+}
+?>
+<html>
+    <input type="text" name = "user" value = "username" />
+    <br>
+    <input type="password" name = "password" value = "password" />
+    <br>
+    <input type="submit" name = "submit" value = "login"/ >
+</html>
